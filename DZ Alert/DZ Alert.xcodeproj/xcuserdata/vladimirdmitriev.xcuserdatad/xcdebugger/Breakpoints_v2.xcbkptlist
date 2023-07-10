@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E47D5C97-B059-4AE4-BABC-38F78CCE54D1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8927AFDB-B0E9-4348-B6F2-D5B36D37F83B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DZ Alert/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "whatNumber(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8927AFDB-B0E9-4348-B6F2-D5B36D37F83B - 38fc273434ee9896"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DZ_Alert.ViewController.whatNumber(Any) -&gt; ()"
+                  moduleName = "DZ Alert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimirdmitriev/Desktop/LearnSwift/UIKit%20SwiftDev/DZ%20Alert/DZ%20Alert/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "460">
+               </Location>
+               <Location
+                  uuid = "8927AFDB-B0E9-4348-B6F2-D5B36D37F83B - 38fc273434ee9896"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DZ_Alert.ViewController.whatNumber(Any) -&gt; ()"
+                  moduleName = "DZ Alert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimirdmitriev/Desktop/LearnSwift/UIKit%20SwiftDev/DZ%20Alert/DZ%20Alert/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "8927AFDB-B0E9-4348-B6F2-D5B36D37F83B - b98aa428391dea98"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in DZ_Alert.ViewController.whatNumber(Any) -&gt; ()"
+                  moduleName = "DZ Alert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimirdmitriev/Desktop/LearnSwift/UIKit%20SwiftDev/DZ%20Alert/DZ%20Alert/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "8927AFDB-B0E9-4348-B6F2-D5B36D37F83B - b98aa428391deab9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in DZ_Alert.ViewController.whatNumber(Any) -&gt; ()"
+                  moduleName = "DZ Alert"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vladimirdmitriev/Desktop/LearnSwift/UIKit%20SwiftDev/DZ%20Alert/DZ%20Alert/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
