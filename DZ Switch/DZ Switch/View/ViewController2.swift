@@ -13,10 +13,20 @@ class ViewController2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        self.view.backgroundColor = .systemPink
+        
+        self.title = "mVC"
 
         lab.backgroundColor = .yellow
-        lab.text = "Shalom :)"
-        lab.center = view.center
+        lab.text = "Shalom, epta :)"
+        
+        lab.frame = CGRect(x: 100, y: 150, width: 200, height: 50)
+        lab.textColor = .blue
+        lab.textAlignment = .center
+        lab.font = lab.font.withSize(18)
+        
         self.view.addSubview(lab)
         
     }

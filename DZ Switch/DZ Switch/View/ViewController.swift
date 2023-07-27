@@ -26,8 +26,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "VC"
-        
 //        MARK: - logo
         
         myImageView.frame = CGRect(x: 145, y: 70, width: 100, height: 100)
@@ -74,17 +72,16 @@ class ViewController: UIViewController {
     }
     
     @objc func buttonClick(sender: Any) {
-//        if mailTextField.text!.isEmpty || passTextField.text!.isEmpty {
-//            let alert = UIAlertController(title: "Ошибка ввода", message: "Введите логин и пароль", preferredStyle: .alert)
-//            let alertAction = UIAlertAction(title: "Ok", style: .default)
-//            alert.addAction(alertAction)
-//            self.present(alert, animated: true)
-//        } else {
+        if mailTextField.text!.isEmpty || passTextField.text!.isEmpty {
+            let alert = UIAlertController(title: "Ошибка ввода", message: "Введите логин и пароль", preferredStyle: .alert)
+            let alertAction = UIAlertAction(title: "Ok", style: .default)
+            alert.addAction(alertAction)
+            self.present(alert, animated: true)
+        } else {
         let secondController = ViewController2()
-//        present(secondController, animated: true, completion: nil)
         navigationController?.pushViewController(secondController, animated: true)
-            print("hi")
-//        }
+            //        present(secondController, animated: true, completion: nil)
+        }
     }
     
 }
