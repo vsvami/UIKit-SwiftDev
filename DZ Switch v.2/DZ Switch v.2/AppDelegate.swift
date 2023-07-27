@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  DZ Switch
+//  DZ Switch v.2
 //
-//  Created by Владимир Дмитриев on 02.07.23.
+//  Created by Владимир Дмитриев on 26.07.23.
 //
 
 import UIKit
@@ -10,20 +10,10 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
+
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        let rootViewController = ViewController()
-        let navigationController = UINavigationController(rootViewController: rootViewController)
-        
-        self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window?.rootViewController = navigationController
-        
-        self.window?.backgroundColor = .red
-        self.window?.makeKeyAndVisible()
-        
         return true
     }
 

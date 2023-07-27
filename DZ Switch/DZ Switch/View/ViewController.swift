@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var myImageView = UIImageView()
+    let logoImage = UIImage(named: "cloud")
+    
     let companyLabel = UILabel()
     let singInTitle = StyleTitle()
     
@@ -22,6 +25,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = "VC"
+        
+//        MARK: - logo
+        
+        myImageView.frame = CGRect(x: 145, y: 70, width: 100, height: 100)
+        myImageView.image = logoImage
+        myImageView.layer.opacity = 0.3
+        self.view.addSubview(myImageView)
         
 //        MARK: - company
         
@@ -57,7 +69,22 @@ class ViewController: UIViewController {
         
         buttomSingIn.styleAndPosition(text: "Войти", x: 40, y: 590, width: 310, color: .systemPink)
         self.view.addSubview(buttomSingIn)
+        self.buttomSingIn.addTarget(self, action: #selector(buttonClick(sender:)) , for: .touchUpInside)
         
+    }
+    
+    @objc func buttonClick(sender: Any) {
+//        if mailTextField.text!.isEmpty || passTextField.text!.isEmpty {
+//            let alert = UIAlertController(title: "Ошибка ввода", message: "Введите логин и пароль", preferredStyle: .alert)
+//            let alertAction = UIAlertAction(title: "Ok", style: .default)
+//            alert.addAction(alertAction)
+//            self.present(alert, animated: true)
+//        } else {
+        let secondController = ViewController2()
+//        present(secondController, animated: true, completion: nil)
+        navigationController?.pushViewController(secondController, animated: true)
+            print("hi")
+//        }
     }
     
 }
