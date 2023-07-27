@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6432F88E2A7145BC00B638D9 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6432F88D2A7145BC00B638D9 /* ViewController2.swift */; };
+		64A791682A727A890032CA08 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A791672A727A890032CA08 /* ViewController3.swift */; };
 		64D3FF1E2A51699B00D21601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D3FF1D2A51699B00D21601 /* AppDelegate.swift */; };
 		64D3FF202A51699B00D21601 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D3FF1F2A51699B00D21601 /* SceneDelegate.swift */; };
 		64D3FF222A51699B00D21601 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D3FF212A51699B00D21601 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		6432F88D2A7145BC00B638D9 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		64A791672A727A890032CA08 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		64D3FF1A2A51699B00D21601 /* DZ Switch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZ Switch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D3FF1D2A51699B00D21601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64D3FF1F2A51699B00D21601 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				64D3FF212A51699B00D21601 /* ViewController.swift */,
 				6432F88D2A7145BC00B638D9 /* ViewController2.swift */,
+				64A791672A727A890032CA08 /* ViewController3.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			files = (
 				64D825E22A536F1B00B9AF93 /* StyleLabel.swift in Sources */,
 				6432F88E2A7145BC00B638D9 /* ViewController2.swift in Sources */,
+				64A791682A727A890032CA08 /* ViewController3.swift in Sources */,
 				64D3FF222A51699B00D21601 /* ViewController.swift in Sources */,
 				64D825E62A53835F00B9AF93 /* StyleTitle.swift in Sources */,
 				64D825E42A537E5000B9AF93 /* StyleTextField.swift in Sources */,
