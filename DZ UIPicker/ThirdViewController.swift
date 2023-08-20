@@ -8,22 +8,35 @@
 import UIKit
 
 class ThirdViewController: UIViewController {
-
+    
+    let cancelButton = UIButton()
+    let addButton = UIButton()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = .white
+        
+        cancelButton.setTitle("Отмена", for: .normal)
+        cancelButton.setTitleColor(.systemBlue, for: .normal)
+        cancelButton.frame = CGRect(x: 15, y: 15, width: 100, height: 30)
+        cancelButton.contentHorizontalAlignment = .left
+        cancelButton.addTarget(self, action: #selector(pushCancelButton), for: .touchUpInside)
 
-        // Do any additional setup after loading the view.
+        self.view.addSubview(cancelButton)
+        
+        addButton.setTitle("Добавить", for: .normal)
+        addButton.setTitleColor(.systemBlue, for: .normal)
+        addButton.frame = CGRect(x: 270, y: 15, width: 100, height: 30)
+        addButton.contentHorizontalAlignment = .right
+        
+        
+        self.view.addSubview(addButton)
+        
+        
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @objc func pushCancelButton() {
+        dismiss(animated: true)
     }
-    */
-
 }

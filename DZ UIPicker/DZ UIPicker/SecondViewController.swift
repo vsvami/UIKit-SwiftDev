@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewControllerSecond: UIViewController {
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,8 +17,9 @@ class ViewControllerSecond: UIViewController {
     }
     
     @objc func addTapped() {
-        let vc = ViewController()
-        navigationController?.pushViewController(vc, animated: true)
+        let thirdViewController = ThirdViewController()
+        present(thirdViewController, animated: true)
+//        navigationController?.pushViewController(thirdViewController, animated: true)
     }
     
 
